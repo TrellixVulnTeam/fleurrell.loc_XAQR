@@ -19,8 +19,11 @@ module.exports = {
         ],
       },
       { test: /\.svg$/, use: 'svg-inline-loader' },
-      { test: /\.(jpg|jpeg|png)$/, use: 'file-loader' },
-    ]
+      {
+        test: /\.(png|svg|jpg|jpeg|gif)$/i,
+        type: 'asset/resource',
+      },
+    ],
   },
   output: {
     path: path.resolve(__dirname, 'dist'),

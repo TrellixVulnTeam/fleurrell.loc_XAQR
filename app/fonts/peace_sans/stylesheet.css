@@ -1,0 +1,7 @@
+@font-face {
+    font-family: 'Peace sans';
+    src: local('Peace sans'), local('PeaceSans'),
+        url('Peace sans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
